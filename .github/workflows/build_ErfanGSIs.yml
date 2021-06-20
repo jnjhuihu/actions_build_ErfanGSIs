@@ -40,7 +40,7 @@ jobs:
               sed -i 's/exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh
        
        - name: Setting up ErfanGSI requirements with Xiaoxin script
-         run: |
+         run: 
               cd ErfanGSIs
               mkdir ./output
               wget https://raw.githubusercontent.com/TimeMapleLing/actions_build_SGSI/main/bin/setup.sh -o setup-xiaoxin.sh
